@@ -77,12 +77,11 @@ echo "$" . $total;
 
 // total_price function Ends //
 
-// getPro function Starts //
-
+// Get list products
 function getPro(){
 
 global $db;
-
+// Shorthand for offset 0, limit 8
 $get_products = "select * from products order by 1 DESC LIMIT 0,8";
 
 $run_products = mysqli_query($db,$get_products);

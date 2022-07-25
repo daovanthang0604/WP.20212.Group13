@@ -36,7 +36,7 @@ include("includes/main.php");
 
 </div><!-- col-md-3 Ends -->
 
-<div class="col-md-9" ><!-- col-md-9 Starts --->
+<div class="col-md-9" id="Products"><!-- col-md-9 Starts --->
 
 
 <?php getProducts(); ?>
